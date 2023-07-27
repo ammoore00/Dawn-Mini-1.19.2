@@ -1,0 +1,143 @@
+
+[types]
+
+	[types.leaves_type]
+
+		[types.leaves_type.biomemakeover]
+			blighted_balsa = true
+			willow = true
+			swamp_cypress = true
+			ancient_oak = true
+
+		[types.leaves_type.vinery]
+			grapevine = true
+			cherry = true
+			apple = true
+
+		[types.leaves_type.meadow]
+			pine = true
+
+		[types.leaves_type.naturearchitect]
+			crimson = true
+			warped = true
+			grass = true
+			sweet_berry = true
+			glow_berry = true
+
+		[types.leaves_type.windswept]
+			holly = true
+			chestnut = true
+
+		[types.leaves_type.quark]
+			blue_blossom = true
+			lavender_blossom = true
+			orange_blossom = true
+			pink_blossom = true
+			yellow_blossom = true
+			red_blossom = true
+			ancient = true
+
+	[types.wood_type]
+
+		[types.wood_type.biomemakeover]
+			blighted_balsa = true
+			willow = true
+			swamp_cypress = true
+			ancient_oak = true
+
+		[types.wood_type.vinery]
+			cherry = true
+
+		[types.wood_type.meadow]
+			pine = true
+
+		[types.wood_type.quark]
+			bamboo = true
+			azalea = true
+			blossom = true
+			ancient = true
+
+		[types.wood_type.windswept]
+			holly = true
+			chestnut = true
+
+[entries]
+
+	[entries.wood_type]
+
+		[entries.wood_type.another_furniture]
+			table = true
+			shelf = true
+			drawer = true
+			shutter = true
+			planter_box = true
+			bench = true
+			chair = true
+
+		[entries.wood_type.decorative_blocks]
+			beam = true
+			support = true
+			seat = true
+			palisade = true
+
+		[entries.wood_type.create]
+			window = true
+			window_pane = true
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true
+
+		[entries.wood_type.mcwdoors]
+			beach_door = true
+			nether_door = true
+			stable_head_door = true
+			barn_door = true
+			mystic_door = true
+			japanese2_door = true
+			tropical_door = true
+			barn_glass_door = true
+			cottage_door = true
+			four_panel_door = true
+			japanese_door = true
+			western_door = true
+			bark_glass_door = true
+			paper_door = true
+			classic_door = true
+			bamboo_door = true
+			swamp_door = true
+			glass_door = true
+			stable_door = true
+			modern_door = true
+
+		[entries.wood_type.mcwtrpdoors]
+			ranch_trapdoor = true
+			classic_trapdoor = true
+			bamboo_trapdoor = true
+			tropical_trapdoor = true
+			cottage_trapdoor = true
+			beach_trapdoor = true
+			swamp_trapdoor = true
+			paper_trapdoor = true
+			bark_trapdoor = true
+			barn_trapdoor = true
+			four_panel_trapdoor = true
+			glass_trapdoor = true
+			mystic_trapdoor = true
+			barred_trapdoor = true
+
+		[entries.wood_type.quark]
+			vertical_planks = true
+			chest = true
+			ladder = true
+			hollow_log = true
+			post = true
+			trapped_chest = true
+			bookshelf = true
+			stripped_post = true
+
+	[entries.leaves_type]
+
+		[entries.leaves_type.quark]
+			hedge = true
+			leaf_carpet = true
+
