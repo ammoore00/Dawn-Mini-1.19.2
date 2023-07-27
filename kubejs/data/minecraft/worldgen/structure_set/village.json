@@ -1,0 +1,78 @@
+{
+    "structures": [
+        {
+            "structure": "ctov:small/village_beach",
+            "weight": 15
+        },
+        {
+            "structure": "ctov:small/village_dark_forest",
+            "weight": 15
+        },
+        {
+            "structure": "ctov:small/village_jungle",
+            "weight": 15
+        },
+        {
+            "structure": "ctov:small/village_mesa",
+            "weight": 15
+        },
+        {
+            "structure": "ctov:small/village_mountain",
+            "weight": 15
+        },
+        {
+            "structure": "ctov:small/village_mushroom",
+            "weight": 15
+        },
+        {
+            "structure": "ctov:small/village_swamp",
+            "weight": 15
+        },
+        {
+            "structure": "ctov:small/village_desert",
+            "weight": 15
+        },
+        {
+            "structure": "ctov:small/village_plains",
+            "weight": 15
+        },
+        {
+            "structure": "ctov:small/village_savanna",
+            "weight": 15
+        },
+        {
+            "structure": "ctov:small/village_snowy",
+            "weight": 15
+        },
+        {
+            "structure": "ctov:small/village_taiga",
+            "weight": 15
+        },
+        {
+            "structure": "minecraft:village_desert",
+            "weight": 15
+        },
+        {
+            "structure": "minecraft:village_plains",
+            "weight": 15
+        },
+        {
+            "structure": "minecraft:village_savanna",
+            "weight": 15
+        },
+        {
+            "structure": "minecraft:village_snowy",
+            "weight": 15
+        },
+        {
+            "structure": "minecraft:village_taiga",
+            "weight": 15
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 15387312,
+        "spacing": 50,
+        "separation": 25
+    }
+}

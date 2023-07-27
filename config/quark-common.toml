@@ -1,6 +1,6 @@
 
 [general]
-	"Enable 'q' Button" = true
+	"Enable 'q' Button" = false
 	"'q' Button on the Right" = false
 	"Disable Q Menu Effects" = false
 	#Disable this to turn off the quark system that makes features turn off when specified mods with the same content are loaded
@@ -13,7 +13,7 @@
 	#Allowed values: (0,)
 	"Advancement Visibility Depth" = 2
 	#Blocks that Quark should treat as Shulker Boxes.
-	"Shulker Boxes" = ["minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box"]
+	"Shulker Boxes" = ["minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box", "supplementaries:sack"]
 	#Should Quark treat anything with 'shulker_box' in its item identifier as a shulker box?
 	"Interpret Shulker Box Like Blocks" = true
 	#Set to true to enable a system that debugs quark's worldgen features. This should ONLY be used if you're asked to by a dev.
@@ -56,13 +56,13 @@
 	Oddities = true
 
 [automation]
-	Gravisand = true
+	Gravisand = false
 	"Metal Buttons" = true
-	"Dispensers Place Blocks" = true
+	"Dispensers Place Blocks" = false
 	"Jukebox Automation" = true
-	Chute = true
+	Chute = false
 	"Feeding Trough" = true
-	"Iron Rod" = true
+	"Iron Rod" = false
 	"Pistons Move Tile Entities" = true
 	"Obsidian Plate" = true
 	"Ender Watcher" = true
@@ -108,14 +108,14 @@
 	Shingles = true
 	Grate = true
 	"Japanese Palette" = true
-	Stools = true
-	"Vertical Slabs" = true
+	Stools = false
+	"Vertical Slabs" = false
 	"Sturdy Stone" = true
 	"Bamboo Backport" = true
 	"Raw Metal Bricks" = true
 	"Duskbound Blocks" = true
 	"More Potted Plants" = true
-	"Leaf Carpet" = true
+	"Leaf Carpet" = false
 	"Celebratory Lamps" = true
 	"Compressed Blocks" = true
 	"Vertical Planks" = true
@@ -326,7 +326,7 @@
 [tools]
 	"Torch Arrow" = true
 	"Slime In A Bucket" = true
-	Pickarang = true
+	Pickarang = false
 	"Skull Pikes" = true
 	Trowel = true
 	"Parrot Eggs" = true
@@ -538,7 +538,7 @@
 	"Vexes Die With Their Masters" = true
 	"Utility Recipes" = true
 	"Sponge On Water Placement" = true
-	"Simple Harvest" = true
+	"Simple Harvest" = false
 	"Gold Tools Have Fortune" = true
 	"Enhanced Ladders" = true
 	"Renewable Spore Blossoms" = true
@@ -550,12 +550,12 @@
 	"Horses Swim" = true
 	"Coral On Cactus" = true
 	"Pig Litters" = true
-	"Grab Chickens" = true
+	"Grab Chickens" = false
 	"No Durability On Cosmetics" = true
 	"More Banner Layers" = true
-	"Hoe Harvesting" = true
+	"Hoe Harvesting" = false
 	"Dragon Scales" = true
-	"Replace Scaffolding" = true
+	"Replace Scaffolding" = false
 	"Campfires Boost Elytra" = true
 	"Sign Editing" = true
 	"Double Door Opening" = true
@@ -752,15 +752,15 @@
 		"Enable Jei Hints" = true
 
 [world]
-	"Monster Box" = true
+	"Monster Box" = false
 	"Spiral Spires" = true
 	"Blossom Trees" = true
-	"Fairy Rings" = true
+	"Fairy Rings" = false
 	"New Stone Types" = true
-	"Azalea Wood" = true
+	"Azalea Wood" = false
 	"Ancient Wood" = true
 	"No More Lava Pockets" = true
-	"Glimmering Weald" = true
+	"Glimmering Weald" = false
 	"Chorus Vegetation" = true
 	Corundum = true
 	"Nether Obsidian Spikes" = true
@@ -1320,11 +1320,11 @@
 [mobs]
 	Foxhound = true
 	Forgotten = true
-	Toretoise = true
-	Stonelings = true
-	Shiba = true
-	Wraith = true
-	Crabs = true
+	Toretoise = false
+	Stonelings = false
+	Shiba = false
+	Wraith = false
+	Crabs = false
 
 	[mobs.foxhound]
 		#The chance coal will tame a foxhound
