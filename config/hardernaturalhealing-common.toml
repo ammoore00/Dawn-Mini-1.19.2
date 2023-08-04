@@ -20,16 +20,16 @@
 	hungerAfterDeath = 20
 	#minimumFoodHealingLevel
 	#Range: 0.0 ~ 22.0
-	minimumFoodHealingLevel = 16.0
+	minimumFoodHealingLevel = 10.0
 	#healingExhaustionCost - Hunger exhausted per healing event.
 	#Range: 0.0 ~ 10.0
-	healingExhaustionCost = 1.0
+	healingExhaustionCost = 0.5
 	#wakeupHealingAmount
 	#Range: 0.0 ~ 10.0
-	wakeupHealingAmount = 4.0
+	wakeupHealingAmount = 0.0
 	#extraExhaustionWhenHurt
 	#Range: 0.0 ~ 1.0
-	extraExhaustionWhenHurt = 0.0125
+	extraExhaustionWhenHurt = 0.0
 	#minimum hit points for peaceful mode starvation.
 	#Range: 0 ~ 20
 	minimumStarvationHealth = 0

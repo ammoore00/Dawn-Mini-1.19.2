@@ -57,7 +57,7 @@
 
 		[types.wood_type.quark]
 			bamboo = true
-			azalea = true
+			azalea = false
 			blossom = true
 			ancient = true
 
@@ -70,6 +70,10 @@
 			azalea = true
 			coconut = true
 			walnut = true
+
+		[types.wood_type.gardens_of_the_dead]
+			soulblight = true
+			whistlecane = true
 
 [entries]
 
@@ -145,9 +149,18 @@
 			bookshelf = true
 			stripped_post = true
 
+		[entries.wood_type.woodworks]
+			beehive = true
+			ladder = false
+			boards = true
+			bookshelf = false
+
 	[entries.leaves_type]
 
 		[entries.leaves_type.quark]
 			hedge = true
-			leaf_carpet = true
+			leaf_carpet = false
+
+		[entries.leaves_type.woodworks]
+			leaf_pile = false
 

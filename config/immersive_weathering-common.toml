@@ -99,9 +99,9 @@
 	#Range: 0.0 ~ 1.0
 	spawn_entity_from_decay = 0.0
 	#Range: 1 ~ 256
-	reach = 12
+	reach = 1
 	#Range: 1 ~ 8
-	max_pile_height = 3
+	max_pile_height = 1
 	#leaves that wont spawn leaf piles
 	leaf_piles_blacklist = []
 
@@ -115,7 +115,7 @@
 	fulgurite_chance = 0.4
 
 [rusting]
-	rusting = true
+	rusting = false
 	#Range: 1 ~ 8
 	rusting_influence_radius = 4
 	#Range: 0.0 ~ 1.0
