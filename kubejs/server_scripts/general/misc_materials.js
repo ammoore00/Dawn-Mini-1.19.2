@@ -13,5 +13,7 @@ ServerEvents.recipes(event => {
             ],
             B: 'minecraft:glass_bottle'
         }
-    )
+    ).id('dawn:antique_ink')
+
+    event.replaceInput({output: 'farmersdelight:canvas'}, 'farmersdelight:straw', 'supplementaries:flax')
 })

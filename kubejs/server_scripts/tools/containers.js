@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-event.remove({id: /(sophisticatedbackpacks:)(?!backpack).*/})
+    event.remove({id: /(sophisticatedbackpacks:)(?!backpack).*/})
 
     event.shaped(
         'sophisticatedbackpacks:backpack',
@@ -14,4 +14,17 @@ event.remove({id: /(sophisticatedbackpacks:)(?!backpack).*/})
             C: '#forge:chests/wooden'
         }
     ).id('sophisticatedbackpacks:backpack')
+
+    event.shaped(
+        'supplementaries:sack',
+        [
+            ' S ',
+            'C C',
+            ' C '
+        ],
+        {
+            S: '#forge:string',
+            C: 'farmersdelight:canvas'
+        }
+    ).id('supplementaries:sack')
 })

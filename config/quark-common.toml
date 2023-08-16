@@ -1,6 +1,107 @@
 
+[client]
+	"Variant Animal Textures" = true
+	"Elytra Indicator" = true
+	Camera = true
+	"Microcrafting Helper" = true
+	"Usage Ticker" = true
+	"Back Button Keybind" = true
+	"Chest Searching" = true
+	"Auto Walk Keybind" = true
+	"Soul Candles" = true
+	"Long Range Pick Block" = true
+	"Greener Grass" = true
+	"Improved Tooltips" = true
+	"Wool Shuts Up Minecarts" = true
+	"Uses For Curses" = true
+
+	[client.variant_animal_textures]
+		"Enable Cow" = true
+		"Enable Pig" = true
+		"Enable Chicken" = true
+		"Enable Shiny Rabbit" = true
+		"Enable Shiny Llama" = true
+		"Enable Shiny Dolphin" = true
+		"Enable Shiny Slime" = true
+		"Enable L G B T Bees" = true
+		"Every Bee Is L G B T" = false
+		#The chance for an animal to have a special "Shiny" skin, like a shiny pokemon. This is 1 in X. Set to 0 to disable.
+		"Shiny Animal Chance" = 2048
+		#If a shiny animal should emit occasional sparkles.
+		"Shiny Sparkles" = true
+
+	[client.usage_ticker]
+		#Switch the armor display to the off hand side and the hand display to the main hand side
+		Invert = false
+		"Shift Left" = 0
+		"Shift Right" = 0
+		"Enable Main Hand" = true
+		"Enable Off Hand" = true
+		"Enable Armor" = true
+
+	[client.chest_searching]
+
+		[client.chest_searching.overlay_color]
+			A = 0.67
+			R = 0.0
+			G = 0.0
+			B = 0.0
+
+	[client.auto_walk_keybind]
+		"Draw Hud" = true
+		"Hud Height" = 10
+
+	[client.greener_grass]
+		"Affect Leaves" = true
+		"Affect Water" = false
+		"Block List" = ["minecraft:large_fern", "minecraft:tall_grass", "minecraft:grass_block", "minecraft:fern", "minecraft:grass", "minecraft:potted_fern", "minecraft:sugar_cane", "environmental:giant_tall_grass", "valhelsia_structures:grass_block"]
+		"Leaves List" = ["minecraft:spruce_leaves", "minecraft:birch_leaves", "minecraft:oak_leaves", "minecraft:jungle_leaves", "minecraft:acacia_leaves", "minecraft:dark_oak_leaves", "atmospheric:rosewood_leaves", "atmospheric:morado_leaves", "atmospheric:yucca_leaves", "autumnity:maple_leaves", "environmental:willow_leaves", "environmental:hanging_willow_leaves", "minecraft:vine"]
+
+		[client.greener_grass.color_matrix]
+			R = [0.89, 0.0, 0.0]
+			G = [0.0, 1.11, 0.0]
+			B = [0.0, 0.0, 0.89]
+
+		[client.greener_grass.water_matrix]
+			R = [0.86, 0.0, 0.0]
+			G = [0.0, 1.0, 0.22]
+			B = [0.0, 0.0, 1.22]
+
+	[client.improved_tooltips]
+		"Attribute Tooltips" = true
+		"Food Tooltips" = true
+		"Shulker Tooltips" = true
+		"Map Tooltips" = true
+		"Enchanting Tooltips" = true
+		"Fuel Time Tooltips" = true
+		"Shulker Box Use Colors" = true
+		"Shulker Box Require Shift" = false
+		"Map Require Shift" = false
+		#The value of each shank of food.
+		#Tweak this when using mods like Hardcore Hunger which change that value.
+		"Food Divisor" = 2
+		"Show Saturation" = true
+		"Food Compression Threshold" = 4
+		"Fuel Time Divisor" = 200
+		#Should item attributes be colored relative to your current equipped item?
+		#e.g. if wearing an Iron Helmet, the armor value in a Diamond Helmet will show as green, and vice versa would be red.
+		#If set to false, item attributes will show in white or red if they're negative values.
+		"Show Upgrade Status" = true
+		"Animate Up Down Arrows" = true
+		"Enchanting Stacks" = ["minecraft:diamond_sword", "minecraft:diamond_pickaxe", "minecraft:diamond_shovel", "minecraft:diamond_axe", "minecraft:diamond_hoe", "minecraft:diamond_helmet", "minecraft:diamond_chestplate", "minecraft:diamond_leggings", "minecraft:diamond_boots", "minecraft:shears", "minecraft:bow", "minecraft:fishing_rod", "minecraft:crossbow", "minecraft:trident", "minecraft:elytra", "minecraft:shield", "quark:pickarang", "supplementaries:slingshot", "supplementaries:bubble_blower", "farmersdelight:diamond_knife"]
+		#A list of additional stacks to display on each enchantment
+		#The format is as follows:
+		#enchant_id=item1,item2,item3...
+		#So to display a carrot on a stick on a mending book, for example, you use:
+		#minecraft:mending=minecraft:carrot_on_a_stick
+		"Enchanting Additional Stacks" = []
+
+	[client.uses_for_curses]
+		"Vanish Pumpkin Overlay" = true
+		"Bind Armor Stands With Player Heads" = true
+
 [general]
-	"Enable 'q' Button" = false
+	"Enable 'q' Button" = true
 	"'q' Button on the Right" = false
 	"Disable Q Menu Effects" = false
 	#Disable this to turn off the quark system that makes features turn off when specified mods with the same content are loaded
@@ -13,7 +114,7 @@
 	#Allowed values: (0,)
 	"Advancement Visibility Depth" = 2
 	#Blocks that Quark should treat as Shulker Boxes.
-	"Shulker Boxes" = ["minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box", "supplementaries:sack"]
+	"Shulker Boxes" = ["minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box"]
 	#Should Quark treat anything with 'shulker_box' in its item identifier as a shulker box?
 	"Interpret Shulker Box Like Blocks" = true
 	#Set to true to enable a system that debugs quark's worldgen features. This should ONLY be used if you're asked to by a dev.
@@ -56,13 +157,13 @@
 	Oddities = true
 
 [automation]
-	Gravisand = false
+	Gravisand = true
 	"Metal Buttons" = true
-	"Dispensers Place Blocks" = false
+	"Dispensers Place Blocks" = true
 	"Jukebox Automation" = true
-	Chute = false
+	Chute = true
 	"Feeding Trough" = true
-	"Iron Rod" = false
+	"Iron Rod" = true
 	"Pistons Move Tile Entities" = true
 	"Obsidian Plate" = true
 	"Ender Watcher" = true
@@ -108,8 +209,8 @@
 	Shingles = true
 	Grate = true
 	"Japanese Palette" = true
-	Stools = false
-	"Vertical Slabs" = false
+	Stools = true
+	"Vertical Slabs" = true
 	"Sturdy Stone" = true
 	"Bamboo Backport" = true
 	"Raw Metal Bricks" = true
@@ -175,12 +276,12 @@
 		"Enable Cactus Block" = true
 		"Enable Chorus Fruit Block" = true
 		"Enable Stick Block" = true
-		"Enable Apple Crate" = false
+		"Enable Apple Crate" = true
 		"Enable Golden Apple Crate" = true
-		"Enable Potato Crate" = false
-		"Enable Carrot Crate" = false
+		"Enable Potato Crate" = true
+		"Enable Carrot Crate" = true
 		"Enable Golden Carrot Crate" = true
-		"Enable Beetroot Crate" = false
+		"Enable Beetroot Crate" = true
 		"Enable Cocoa Bean Sack" = true
 		"Enable Nether Wart Sack" = true
 		"Enable Gunpowder Sack" = true
@@ -195,7 +296,7 @@
 		# - woodworks
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
-		"Ignore Anti Overlap" = true
+		"Ignore Anti Overlap" = false
 
 	[building.thatch]
 		#This feature disables itself if any of the following mods are loaded: 
@@ -230,7 +331,7 @@
 		# - woodworks
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
-		"Ignore Anti Overlap" = true
+		"Ignore Anti Overlap" = false
 		"Change Names" = true
 
 	[building.variant_bookshelves]
@@ -238,7 +339,7 @@
 		# - woodworks
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
-		"Ignore Anti Overlap" = true
+		"Ignore Anti Overlap" = false
 		"Change Names" = true
 
 	[building.rope]
@@ -326,7 +427,7 @@
 [tools]
 	"Torch Arrow" = true
 	"Slime In A Bucket" = true
-	Pickarang = false
+	Pickarang = true
 	"Skull Pikes" = true
 	Trowel = true
 	"Parrot Eggs" = true
@@ -538,7 +639,7 @@
 	"Vexes Die With Their Masters" = true
 	"Utility Recipes" = true
 	"Sponge On Water Placement" = true
-	"Simple Harvest" = false
+	"Simple Harvest" = true
 	"Gold Tools Have Fortune" = true
 	"Enhanced Ladders" = true
 	"Renewable Spore Blossoms" = true
@@ -550,12 +651,12 @@
 	"Horses Swim" = true
 	"Coral On Cactus" = true
 	"Pig Litters" = true
-	"Grab Chickens" = false
+	"Grab Chickens" = true
 	"No Durability On Cosmetics" = true
 	"More Banner Layers" = true
-	"Hoe Harvesting" = false
+	"Hoe Harvesting" = true
 	"Dragon Scales" = true
-	"Replace Scaffolding" = false
+	"Replace Scaffolding" = true
 	"Campfires Boost Elytra" = true
 	"Sign Editing" = true
 	"Double Door Opening" = true
@@ -645,7 +746,7 @@
 		#Can two Logs be used instead of a Chest to make a Hopper?
 		"Easy Hopper" = true
 		#Can two Logs be used to craft 16 sticks?
-		"Easy Sticks" = true
+		"Easy Sticks" = false
 		#Can raw ore blocks be smelted, taking 9x the time a normal item?
 		"Smelt Raw Ore Blocks" = true
 
@@ -752,15 +853,15 @@
 		"Enable Jei Hints" = true
 
 [world]
-	"Monster Box" = false
+	"Monster Box" = true
 	"Spiral Spires" = true
 	"Blossom Trees" = true
-	"Fairy Rings" = false
+	"Fairy Rings" = true
 	"New Stone Types" = true
-	"Azalea Wood" = false
+	"Azalea Wood" = true
 	"Ancient Wood" = true
 	"No More Lava Pockets" = true
-	"Glimmering Weald" = false
+	"Glimmering Weald" = true
 	"Chorus Vegetation" = true
 	Corundum = true
 	"Nether Obsidian Spikes" = true
@@ -1320,11 +1421,11 @@
 [mobs]
 	Foxhound = true
 	Forgotten = true
-	Toretoise = false
-	Stonelings = false
-	Shiba = false
-	Wraith = false
-	Crabs = false
+	Toretoise = true
+	Stonelings = true
+	Shiba = true
+	Wraith = true
+	Crabs = true
 
 	[mobs.foxhound]
 		#The chance coal will tame a foxhound
@@ -1504,107 +1605,6 @@
 				[mobs.crabs.spawn_config.biomes.biomes]
 					Biomes = []
 					"Is Blacklist" = true
-
-[client]
-	"Variant Animal Textures" = true
-	"Elytra Indicator" = true
-	Camera = true
-	"Microcrafting Helper" = true
-	"Usage Ticker" = true
-	"Back Button Keybind" = true
-	"Chest Searching" = true
-	"Auto Walk Keybind" = true
-	"Soul Candles" = true
-	"Long Range Pick Block" = true
-	"Greener Grass" = true
-	"Improved Tooltips" = true
-	"Wool Shuts Up Minecarts" = true
-	"Uses For Curses" = true
-
-	[client.variant_animal_textures]
-		"Enable Cow" = true
-		"Enable Pig" = true
-		"Enable Chicken" = true
-		"Enable Shiny Rabbit" = true
-		"Enable Shiny Llama" = true
-		"Enable Shiny Dolphin" = true
-		"Enable Shiny Slime" = true
-		"Enable L G B T Bees" = true
-		"Every Bee Is L G B T" = false
-		#The chance for an animal to have a special "Shiny" skin, like a shiny pokemon. This is 1 in X. Set to 0 to disable.
-		"Shiny Animal Chance" = 2048
-		#If a shiny animal should emit occasional sparkles.
-		"Shiny Sparkles" = true
-
-	[client.usage_ticker]
-		#Switch the armor display to the off hand side and the hand display to the main hand side
-		Invert = false
-		"Shift Left" = 0
-		"Shift Right" = 0
-		"Enable Main Hand" = true
-		"Enable Off Hand" = true
-		"Enable Armor" = true
-
-	[client.chest_searching]
-
-		[client.chest_searching.overlay_color]
-			A = 0.67
-			R = 0.0
-			G = 0.0
-			B = 0.0
-
-	[client.auto_walk_keybind]
-		"Draw Hud" = true
-		"Hud Height" = 10
-
-	[client.greener_grass]
-		"Affect Leaves" = true
-		"Affect Water" = false
-		"Block List" = ["minecraft:large_fern", "minecraft:tall_grass", "minecraft:grass_block", "minecraft:fern", "minecraft:grass", "minecraft:potted_fern", "minecraft:sugar_cane", "environmental:giant_tall_grass", "valhelsia_structures:grass_block", "immersive_weathering:rooted_grass_block"]
-		"Leaves List" = ["minecraft:spruce_leaves", "minecraft:birch_leaves", "minecraft:oak_leaves", "minecraft:jungle_leaves", "minecraft:acacia_leaves", "minecraft:dark_oak_leaves", "atmospheric:rosewood_leaves", "atmospheric:morado_leaves", "atmospheric:yucca_leaves", "autumnity:maple_leaves", "environmental:willow_leaves", "environmental:hanging_willow_leaves", "minecraft:vine"]
-
-		[client.greener_grass.color_matrix]
-			R = [0.89, 0.0, 0.0]
-			G = [0.0, 1.11, 0.0]
-			B = [0.0, 0.0, 0.89]
-
-		[client.greener_grass.water_matrix]
-			R = [0.86, 0.0, 0.0]
-			G = [0.0, 1.0, 0.22]
-			B = [0.0, 0.0, 1.22]
-
-	[client.improved_tooltips]
-		"Attribute Tooltips" = true
-		"Food Tooltips" = true
-		"Shulker Tooltips" = true
-		"Map Tooltips" = true
-		"Enchanting Tooltips" = true
-		"Fuel Time Tooltips" = true
-		"Shulker Box Use Colors" = true
-		"Shulker Box Require Shift" = false
-		"Map Require Shift" = false
-		#The value of each shank of food.
-		#Tweak this when using mods like Hardcore Hunger which change that value.
-		"Food Divisor" = 2
-		"Show Saturation" = true
-		"Food Compression Threshold" = 4
-		"Fuel Time Divisor" = 200
-		#Should item attributes be colored relative to your current equipped item?
-		#e.g. if wearing an Iron Helmet, the armor value in a Diamond Helmet will show as green, and vice versa would be red.
-		#If set to false, item attributes will show in white or red if they're negative values.
-		"Show Upgrade Status" = true
-		"Animate Up Down Arrows" = true
-		"Enchanting Stacks" = ["minecraft:diamond_sword", "minecraft:diamond_pickaxe", "minecraft:diamond_shovel", "minecraft:diamond_axe", "minecraft:diamond_hoe", "minecraft:diamond_helmet", "minecraft:diamond_chestplate", "minecraft:diamond_leggings", "minecraft:diamond_boots", "minecraft:shears", "minecraft:bow", "minecraft:fishing_rod", "minecraft:crossbow", "minecraft:trident", "minecraft:elytra", "minecraft:shield", "quark:pickarang", "supplementaries:slingshot", "supplementaries:bubble_blower", "farmersdelight:diamond_knife"]
-		#A list of additional stacks to display on each enchantment
-		#The format is as follows:
-		#enchant_id=item1,item2,item3...
-		#So to display a carrot on a stick on a mending book, for example, you use:
-		#minecraft:mending=minecraft:carrot_on_a_stick
-		"Enchanting Additional Stacks" = []
-
-	[client.uses_for_curses]
-		"Vanish Pumpkin Overlay" = true
-		"Bind Armor Stands With Player Heads" = true
 
 [experimental]
 	"Adjustable Chat" = false
