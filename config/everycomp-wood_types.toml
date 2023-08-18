@@ -138,6 +138,7 @@
 			glass_trapdoor = true
 			mystic_trapdoor = true
 			barred_trapdoor = true
+			blossom_trapdoor = true
 
 		[entries.wood_type.quark]
 			vertical_planks = true

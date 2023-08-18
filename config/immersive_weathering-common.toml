@@ -53,6 +53,7 @@
 	ash_spawn = 0.3
 	soot_spawn = true
 	flammable_cobweb = true
+	flammable_crops = true
 
 [item_interaction]
 	pickaxe_cracking = true
